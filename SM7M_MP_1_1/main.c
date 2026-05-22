@@ -37,7 +37,7 @@
 #include <se6.h>
 #include <mcu-e2prom.h>
 
-static struct i2c_slave_ctx i2c1_slave_ctx;
+struct i2c_slave_ctx i2c1_slave_ctx;
 static struct i2c_slave_ctx i2c2_slave_ctx;
 
 int main(void)
